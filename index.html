@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>MantenteSano</title>
+</head>
+<body>
+    <header class="header">
+            <div class="nav1">
+                <ul>
+                    <li class="li1"><a class="txnav1" href="#pie1">Registrate</a></li>
+                    <li class="li1"><a class="txnav1" href="#pie2">Contactanos</a></li>
+                    <li class="li1"><a class="txnav1" href="#pie3">Saca Turno con Nosotros</a></li>
+                </ul>
+            </div>
+            <h1>Mantente Sano</h1>
+            <nav class="nav2">
+                <ul>
+                    <li class="li1"></li><a  class="txnav2" href="/html/tuscomidas.html">Tus Comidas</a></li>
+                    <li class="li1"></li><a class="txnav2" href="/html/imc.html">Calcula tu IMC</a></li>
+                    <li class="li1"></li><a class="txnav2" href="/index.html">Inicio</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <form>
+            <h2>Registrate</h2>
+                <div class="form1">
+                    <div>
+                        <label for="nombre_apellido">Nombre y Apellido: </label>
+                        <input type="text" nombre y apellido="nombre_apellido" placeholder="Ingrese su Nombre y Apellido aqui ">
+                    </div>
+                    <div>
+                        <label for="fecha_de_nacimiento">Fecha de Nacimiento: </label> 
+                        <input type="text" fecha de nacimiento="fecha_de_nacimiento" placeholder="00/00/0000">
+                    </div>
+                    <div>
+                        <label for="mail">Mail:</label>
+                        <input type="text" mail="mail" placeholder="Ingrese su mail aqui ">
+                    </div>
+                    <div>
+                        <label for="telefono_de_contacto">Telefono de Contacto: </label>
+                        <input type="text" telefono de contacto="telefono_de_contacto" placeholder="Ingrese aqui su Telefono de Contacto">
+                    </div>
+                    <div>
+                        <label for="domicilio">Domicilio: </label>
+                        <input type="domicilio" domicilio="domicilio" placeholder="Ingrese aqui su Domicilio">
+                    </div>
+                    <div>
+                        <input type="submit" value="Registrarme">
+                        <input type="reset" value="Limpiar">
+                    </div>
+                </div>
+            <h2>Contactanos</h2>
+                <div class="form2">
+                    <div>
+                        <label class="info" for="nombre-apellido">Nombre y Apellido</label>
+                        <input type="text" nombre y apellido="nombre-apellido" placeholder="Ingrese su nombre y apellido"> 
+                    </div>
+                    <div>
+                        <label class="info" for="mail">Mail</label>
+                        <input type="text" mail="mail" placeholder="Ingrese su mail">
+                    </div>
+                    <div>
+                        <label class="info" for="mensaje">Mensaje</label>
+                        <input type="text" mensaje="mensaje" placeholder="Escriba su mensaje">
+                    </div>
+                    <div class="form-boton">
+                        <input class="boton1" type="submit" value="Enviar">
+                        <input class="boton1" type="reset" value="Limpiar">
+                    </div>
+                </div>
+            <h2>Saca Turno con Nosotros</h2>
+                <div class="form3">
+                    <div class="form-turno">
+                        <label for="elegi-turno">Buscar Turno:</label>
+                        <input id="elegi-turno" type="datetime-local" name="date">
+                    </div>
+                    <div class="form-turn">
+                        <div class="input.aceptar">En caso de cancelar, me comprometo a hacerlo hasta 24 hs antes.</div>
+                        <input type="checkbox" name="acepta" value="1">
+                    </div>
+                    <div class="form-turn">
+                        <input type="submit" value="Confirmar Turno">
+                        <input type="reset" value="Limpiar">
+                    </div>
+                </div>
+        </form>
+        <script src="/js/script.js"></script>
+    </main>
+    <footer class="footer">
+        <div class="txfoot">
+            <p>Telefono de contacto: 4444-4444</p>
+            <p>Mail: mantentesano@gmail.com</p>
+            <p>Buscanos en: Ig fb</p> 
+        </div>
+        <h3>2021 todos los derechos reservados corp. Alanis</h3>
+    </footer> 
+</body>
+</html>
